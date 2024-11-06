@@ -14,12 +14,7 @@
   <!-- android -->
   <platform name="android">
 
-    <config-file target="res/xml/config.xml" parent="/*">
-      <feature name="ChangeStatusBarCordovaPlugin">
-        <param name="android-package" value="com.outsystems.experts.ChangeStatusBarCordovaPlugin" />
-        <param name="onload" value="true" />
-      </feature>
-    </config-file>
+
     <config-file target="res/values/themes.xml" parent="/*">
       <style name="Theme.AppCompat.NoActionBar">
         <item name="windowActionBar">false</item>
